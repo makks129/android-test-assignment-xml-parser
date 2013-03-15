@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trips XML Parser</string>
+
+    <string name="xml_url">http://sevkin.ru/flights.xml</string>
+    <string name="file_path">/flights.xml</string>
+
+    <string name="load_btn">Get trips</string>
+    <string name="sort_price_btn">Sort by price</string>
+    <string name="sort_time_btn">Sort by duration</string>
+
+    <string name="flight_from_to_lbl">From-To:</string>
+    <string name="flight_date_lbl">Date:</string>
+    <string name="flight_time_lbl">Time:</string>
+    <string name="flight_carrier_lbl">Carrier:</string>
+    <string name="flight_number_lbl">Number:</string>
+    <string name="flight_eq_lbl">eq:</string>
+    <string name="flight_price_lbl">Price:</string>
+
+    <string name="load_dialog">Loading data. Please wait…</string>
+
+    <string name="load_fail">Failed to load data. Please try again.</string>
+
+
+</resources>

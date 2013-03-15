@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_btn"
+        android:id="@+id/load_btn"
+        android:layout_margin="5dp"
+        android:onClick="onClickGetTripsButton"
+        android:layout_weight="0"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/sort_price_btn"
+            android:text="@string/sort_price_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSortByPriceButton"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/sort_time_btn"
+            android:text="@string/sort_time_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSortByTimeButton"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/trips_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
